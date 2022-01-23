@@ -4,10 +4,6 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
 
-body {
-  
-}
-
 /*Heading Section */
 
 .logo {
@@ -34,6 +30,12 @@ a {
   color: #ffffff;
 }
 
+a:hover{
+  background-color: white;
+  color: black;
+
+}
+
 /*TOP SECTION*/
 
 .top-section {
@@ -50,7 +52,7 @@ a {
   color: white;
 }
 
-.btn {
+/*.btn {
   display:flex;
   justify-content: center;
   align-items: center;
@@ -60,7 +62,7 @@ a {
   background-color: red;
   border-radius: 10%;
   
-}
+} */
 
 button {
   font-weight: 700;
@@ -73,9 +75,15 @@ button {
   font-size: 20px;
 }
 
+button:hover {
+  background-color: white;
+  color: red;
+}
+
 .microphone {
   width: 600px;
   height: 300px;
+  border-radius: 10%;
 }
 
 /*INFO SECTION*/
@@ -143,3 +151,42 @@ h2 {
   align-self: flex-end;
   font-size: 20px;
 }
+
+/*Bottom Section*/
+
+.call-to-action {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: red;
+  margin: 75px 150px;
+  padding: 40px;
+  
+}
+
+.cta-title,
+.cta-text p {
+  color: white;
+}
+
+.cta-title {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.cta-btn button {
+  border: solid 1px white;
+}
+ /*Footer*/
+
+ .footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: black;
+   padding: 10px;
+ }
+
+ .footer p {
+   color: white;
+ }
