@@ -1,0 +1,145 @@
+* {
+  /*border: solid red 1px;*/
+  box-sizing: border-box; 
+}
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+
+body {
+  
+}
+
+/*Heading Section */
+
+.logo {
+  width: 175px;
+  height: 75px;
+}
+
+.heading {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  padding: 0px 150px;
+}
+
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/*TOP SECTION*/
+
+.top-section {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 75px 150px;
+  background-color: black;
+}
+.top-section p,
+.top-section h1 {
+  width: 300px;
+  color: white;
+}
+
+.btn {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+  background-color: red;
+  border-radius: 10%;
+  
+}
+
+button {
+  font-weight: 700;
+  background-color: red;
+  color: white;
+  padding: 0;
+  border-style: none;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.microphone {
+  width: 600px;
+  height: 300px;
+}
+
+/*INFO SECTION*/
+
+.info-section {
+  display: flex;
+  text-align: center;
+  padding: 50px 150px;
+  justify-content: center;
+  gap: 40px; 
+  }
+h2 {
+  text-align: center;
+  color: black;
+  margin: 0px;
+  padding: 20px;
+  font-size: 32px;
+}
+
+.info {
+  flex-direction: column;
+  width: 200px;
+    
+}
+
+.student-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.student-name {
+  font-size: 25px;
+  font-family: 'Work Sans', sans-serif;
+  color: red;
+}
+.text {
+  font-size: 14px;
+  color: black;
+  font-family: 'Work Sans', sans-serif;
+  line-height: 25px;
+  margin-top: 15px;
+  font-weight: 500;
+  
+}
+
+/*Quote Section*/
+
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: gold;
+  padding: 50px 150px;
+
+}
+
+.quote {
+  flex: 1;
+  font-size: 32px;
+}
+
+.author {
+  align-self: flex-end;
+  font-size: 20px;
+}
